@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(135deg,#2d6a4f,#74c69d);
+    color: #fff;
+    padding: 10%;
+}
+.age-sec h1{
+    font-size: 50px;
+    color: #f2bac9;
+}
+.input-sec{
+    margin-top: 30px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    max-width: 500px;
+    background-color: #bcb8b1;
+    padding: 20px;
+    border-radius: 7px;
+    margin-bottom: 20px;
+}
+#date{
+    flex: 1;
+    margin-right: 20px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    padding: 10px 40px;
+    border-radius: 7px;
+    position: relative;
+}
+
+.btn{
+    font-size: 20px;
+    padding: 5px 20px;
+    border-radius: 7px;
+    background-color: #124559;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.result{
+    font-size: 30px;
+    color:#124559;
+
+}
+#date::-webkit-calendar-picker-indicator{
+    top: 6px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: auto;
+    height: auto;
+    position: absolute;
+    background-position: calc(100%-10px);
+    background-size: 27px;
+    cursor: pointer;
+
+}
+
